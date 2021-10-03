@@ -146,7 +146,7 @@ delta.on('messageReactionAdd', async (reaction, user)=> {
         },
         {  
           id:  staffid,
-            allow: ["VIEW_CHANNEL"]
+            allow: ["SEND_MESSAGES", "VIEW_CHANNEL"]
         }
       ],
       })
